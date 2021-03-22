@@ -1,0 +1,39 @@
+{
+  "name": "graphql-kafkajs-subscriptions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iterall": "^1.3.0",
+    "kafkajs": "^1.15.0",
+    "rxjs": "^6.6.6"
+  },
+  "peerDependencies": {
+    "graphql-subscriptions": "^1.2.1"
+  },
+  "optionalDependencies": {
+    "bunyan": "^1.8.15"
+  },
+  "devDependencies": {
+    "@types/bunyan": "^1.8.6",
+    "@types/node": "^14.11.2",
+    "bunyan": "^1.8.15",
+    "eslint": "^7.22.0",
+    "gts": "^3.1.0",
+    "jest": "^26.6.3",
+    "typescript": "^4.2.3"
+  }
+}
