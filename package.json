@@ -1,6 +1,6 @@
 {
   "name": "@shirayukikitsune/graphql-kafkajs-subscriptions",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An implementation for the Apollo PubSubEngine using the KafkaJS as backend.",
   "main": "dist/index.js",
   "scripts": {
@@ -21,7 +21,13 @@
     "url": "https://github.com/shirayukikitsune/graphql-kafkajs-subscriptions/issues"
   },
   "homepage": "https://github.com/shirayukikitsune/graphql-kafkajs-subscriptions",
-  "keywords": ["graphql", "apollo", "subscription", "kafka", "kafkajs"],
+  "keywords": [
+    "graphql",
+    "apollo",
+    "subscription",
+    "kafka",
+    "kafkajs"
+  ],
   "author": "Bruno Ferreira <shirayuki@kitsune.com.br>",
   "license": "BSD-2-Clause",
   "dependencies": {
