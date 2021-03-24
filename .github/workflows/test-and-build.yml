@@ -1,4 +1,4 @@
-name: release-new-version
+name: test-and-build
 on: [push]
 jobs:
   build-package:
