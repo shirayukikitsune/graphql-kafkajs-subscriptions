@@ -3,7 +3,11 @@
 .eslintrc.json
 .eslintignore
 .github
+coverage
+__tests__
+
 .prettierrc.js
 *.iml
 tsconfig.json
 *.tgz
+*.config.js

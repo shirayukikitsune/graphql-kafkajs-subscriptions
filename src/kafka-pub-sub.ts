@@ -3,7 +3,7 @@ import {Consumer, Kafka, Message, Producer} from 'kafkajs';
 import {KafkaPubSubConfig} from './kafka-pub-sub-config';
 import {PubSubAsyncIterator} from './pubsub-async-iterator';
 import {Subject, Subscription} from 'rxjs';
-import Logger = require('bunyan');
+import Logger from 'bunyan';
 
 interface SubscriptionMap<T> {
   [topic: string]: Subject<T>;
